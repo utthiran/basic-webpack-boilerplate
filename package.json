@@ -1,0 +1,31 @@
+{
+  "name": "basic-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "utthiran",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.2.1",
+    "postcss-loader": "^4.0.4",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.4",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
